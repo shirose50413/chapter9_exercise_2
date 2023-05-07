@@ -4,78 +4,67 @@
   box-sizing: border-box;
 }
 
-/** {*/
-/*  margin: 0;*/
-/*  padding: 0;*/
-/*  box-sizing: border-box;*/
-/*}*/
+header, footer {
+  width: 100%;
+  height: 50px;
+}
 
-/*header {*/
-/*  background-color: #ff9a4b;*/
-/*  width: 100%;*/
-/*  height: 50px;*/
-/*}*/
+header, .step {
+  background-color: #ff9a4b;
+}
 
-/*main {*/
-/*  width: 960px;*/
-  /*height: 400px;*/
-/*  margin: 50px auto;*/
-/*  display: flex;*/
-/*}*/
+main {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
 
-/*.box {*/
-/*  width: 300px;*/
-  /*height: 300px;*/
-/*  background-color: #eee;*/
-/*  padding: 10px;*/
-/*  position: relative;*/
-/*  margin-right: 30px;*/
-/*}*/
+.box {
+  width: 300px;
+  background-color: #eee;
+  margin-right: 30px;
+  position: relative;
+}
 
-/*.box:last-child {*/
-/*  margin-right: 0;*/
-/*}*/
+.box:last-child {
+  margin-right: 0;
+}
 
-/*.step {*/
-/*  color: white;*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  left: 0;*/
-/*  background-color: #ff9a4b;*/
-  /*font-size: 20px;*/
-/*}*/
+.image {
+  height: 150px;
+  margin: 10px;
+  background-size: cover;
+  background-position: bottom;
+}
 
-/*.image1 {*/
-/*  height: 150px;*/
-/*  background-image: url(img/flow01.png);*/
-/*  background-size: cover;*/
-/*  background-position: bottom;*/
-/*}*/
+.flow01 {
+  background-image: url(img/flow01.png);
+}
 
-/*.image2 {*/
-/*  height: 150px;*/
-/*  background-image: url(img/flow02.png);*/
-/*  background-size: cover;*/
-/*  background-position: bottom;*/
-/*}*/
+.flow02 {
+  background-image: url(img/flow02.png);
+}
 
-/*.image3 {*/
-/*  height: 150px;*/
-/*  background-image: url(img/flow03.png);*/
-/*  background-size: cover;*/
-/*  background-position: bottom;*/
-/*}*/
+.flow03 {
+  background-image: url(img/flow03.png);
+}
 
-/*.title {*/
-/*  margin-top: 15px;*/
-/*}*/
+.step {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-/*.text {*/
-/*  margin-top: 5px;*/
-/*}*/
+.title {
+  margin: 15px 10px 5px 10px;
+}
 
-/*footer {*/
-/*  background-color: #aaa;*/
-/*  width: 100%;*/
-/*  height: 50px;*/
-/*}*/
+.text {
+  margin: 0 10px 10px 10px;
+}
+
+footer {
+  background-color: #aaa;
+}
